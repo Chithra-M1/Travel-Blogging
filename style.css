@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.color{
+    background-color:rgb(233, 219, 229);
+    color: black;
+}
+#butt{
+    background-color: pink;
+    padding: 2px;
+    margin: 2px;
+
+}
+.row{
+    width: 100%;
+    height: 500px;
+    background-color:white;
+    display: flex;
+    justify-content:space-evenly ;
+    /* start,end, center,space-around,space-between*/
+    align-items: center;
+}
+.col{
+    width: 300px;
+    height: 350px;
+    margin: 10px;.
+}
+.col1{
+    background-image: url("https://cdn.pixabay.com/photo/2020/06/15/06/48/landscape-5300602_640.jpg");
+    background-size: cover;
+    width:300px ;
+    height: 400px;
+}
+.col2{
+    background-image: url("https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    width:300px ;
+    height: 400px;
+}
+.col3{
+    background-image: url("https://cdn.pixabay.com/photo/2024/06/21/08/21/hut-8843868_640.jpg");
+    background-size: cover;
+    width:300px ;
+    height: 400px;
+}
+.col4{
+        background-image: url("https://cdn.pixabay.com/photo/2023/02/01/10/37/sunset-7760143_640.jpg");
+        background-size: cover;
+        width:300px ;
+        height: 400px;
+ }
+.col5{
+        background-image: url("https://cdn.pixabay.com/photo/2023/07/01/18/21/water-8100724_640.jpg");
+        background-size: cover;
+        width:300px ;
+        height: 400px;
+    }
+.col6{
+        background-image: url("https://cdn.pixabay.com/photo/2021/10/18/19/04/mountains-6721870_640.jpg");
+        background-size: cover;
+        width:300px ;
+        height: 400px;
+    }
+.col7{
+        background-image: url("https://cdn.pixabay.com/photo/2021/10/11/18/58/lake-6701636_640.jpg");
+        background-size: cover;
+        width:300px ;
+        height: 400px;
+}
+.col8{
+        background-image: url("https://cdn.pixabay.com/photo/2015/05/30/19/55/desert-790640_640.jpg");
+        background-size: cover;
+        width:300px ;
+        height: 400px;
+}
+.fig{
+    width: 100%;
+    height: 500px;
+    background-color:white;
+    display: flex;
+    justify-content:space-evenly ;
+    /* start,end, center,space-around,space-between*/
+    align-items: center;
+}
+.figure1{
+    background-image: url("https://www.heleninwonderlust.co.uk/wp-content/uploads/2023/11/Devils-Pool-Zambia.jpg");
+    background-size: cover;
+    width:400px ;
+    height: 400px;
+}
+
+
+.figure2{
+    background-image: url("https://www.heleninwonderlust.co.uk/wp-content/uploads/2023/11/Rock-My-Adventure-Uganda.jpg");
+    background-size: cover;
+    width:400px ;
+    height: 400px;
+}
+ 
+ .gall img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+.cola{
+    background-image: url("https://www.heleninwonderlust.co.uk/wp-content/uploads/2022/10/Helen-in-Wonderlust-in-Cape-Town.jpg");
+    background-size: cover;
+    width:300px ;
+    height: 400px;
+}
+.colb{
+    background-image: url("https://www.heleninwonderlust.co.uk/wp-content/uploads/2015/06/Bagamoyo-1-768x576.jpg");
+    background-size: cover;
+    width:300px ;
+    height: 400px;
+}
+.colc{
+    background-image: url("https://www.heleninwonderlust.co.uk/wp-content/uploads/2022/10/Helen-in-Wonderlust-on-Kilimanjaro.jpg");
+    background-size: cover;
+    width:300px ;
+    height: 400px;
+}
+.cold{
+        background-image: url("https://www.heleninwonderlust.co.uk/wp-content/uploads/2023/03/The-Book-Bus-Livingstone-Zambia.jpeg");
+        background-size: cover;
+        width:300px ;
+        height: 400px;
+ }
+.cole{
+        background-image: url("https://www.heleninwonderlust.co.uk/wp-content/uploads/2022/10/Helen-in-Wonderlust-Lake-District-1.jpg");
+        background-size: cover;
+        width:300px ;
+        height: 400px;
+    }
+.colf{
+        background-image: url("https://www.heleninwonderlust.co.uk/wp-content/uploads/2023/03/Absolute-Africa.jpeg");
+        background-size: cover;
+        width:300px ;
+        height: 400px;
+    }
+.footer{
+    background-color: azure;
+    
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    position: sticky;
+    top: 0px;
+}
